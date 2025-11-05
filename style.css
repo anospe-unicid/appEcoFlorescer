@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0fff0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #2e8b57;
+  margin-top: 20px;
+}
+
+#map {
+  width: 90%;
+  height: 400px;
+  margin: 20px auto;
+  border: 2px solid #2e8b57;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#apresentacao, #educacao, #quiz {
+  width: 90%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+#apresentacao {
+  background-color: #e6ffe6;
+  border-left: 5px solid #2e8b57;
+}
+
+#educacao {
+  background-color: #fffbe6;
+  border-left: 5px solid #f4a460;
+}
+
+#quiz {
+  background-color: #e0f7fa;
+  border-left: 5px solid #00838f;
+}
+
+#quiz h2 {
+  color: #006064;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+.question h3 {
+  color: #004d40;
+}
+
+.options label {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.feedback {
+  margin-top: 10px;
+  font-style: italic;
+  color: #00695c;
+}
